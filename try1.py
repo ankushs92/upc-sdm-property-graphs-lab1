@@ -1,5 +1,5 @@
 from py2neo import Graph, Node, Relationship
-g = Graph(password="wijntje")
+g = Graph(user = "neo4j", password = "root")
 
 a = Node("Person", name="Alice", age=33)
 b = Node("Person", name="Bob", age=44)
